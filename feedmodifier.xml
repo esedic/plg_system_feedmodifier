@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" version="3.1" method="upgrade">
+	<name>System - Feed Modifier</name>
+	<author>Elvis Sedić</author>
+	<creationDate>June 03, 2016</creationDate>
+	<copyright>Copyright (C) 2016 Spletodrom. All rights reserved.</copyright>
+	<license>GNU General Public License version 3 or later; see LICENSE.txt</license>
+	<authorEmail>elvis@spletodrom.com</authorEmail>
+	<authorUrl>http://www.spletodrom.com</authorUrl>
+	<version>1.0</version>
+	<description>PLG_FEED_MODIFIER_DESC</description>
+	<files>
+		<filename plugin="feedmodifier">feedmodifier.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_feedmodifier.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			</fieldset>
+		</fields>
+	</config>
+</extension>
